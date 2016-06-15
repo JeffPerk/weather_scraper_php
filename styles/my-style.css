@@ -1,0 +1,49 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: url(img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+p {
+  color: white;
+}
+.main-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.header-container {
+  height: 110px;
+  width: 80%;
+  /*border: 1px solid white;*/
+  margin: auto;
+  text-align: center;
+}
+#header_tag {
+  color: white;
+}
+.form-container {
+  height: 80px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.form-group {
+  text-align: center;
+}
+.form-control {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+.search_button {
+  margin-top: 10px;
+  width: 150px;
+}
